@@ -6,7 +6,7 @@ class Response{
     //atributos
     private $status; // 200 = "OK".  404 = "No encontrado". 500 = "Error".
     private $data; //el body puede haber texto o datos
-    private $response; // el response son las 2 cosas juntas el status y la data
+    private $response; // array con informacion de la consulta mi rey
 
     //recibe parametros
     public function __construct($status,$data)
